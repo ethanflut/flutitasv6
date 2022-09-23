@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "flutitas",
+  "version": "${version}",
+  "name": "Flutitas",
+  "description": "flutitas para el flutsfio",
+  "authors": [
+    "ethanflut"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/flutitas/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "flutitasv5.flutitas.client.FlutitasClient"
+    ],
+    "main": [
+      "flutitasv5.flutitas.Flutitas"
+    ]
+  },
+  "mixins": [
+    "flutitas.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
